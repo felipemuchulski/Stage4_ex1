@@ -28,13 +28,12 @@ alert(`O resto da divisão é ${rest.toFixed(1)}`);
 
 
 // verificar se a soma dos números é par ou impar 
- let conversion = (number1 + number2) / 2;
- if (conversion == 0){
-    alert("É par");
- } else {
-    alert("É impar")
- };
-
+ let resSum = sum % 2;
+  if(resSum === 0 ){
+    alert("O resultado da soma é um número par");
+  } else {
+    alert("O resultado da soma é um número impar");
+  }
 // verificar se os dois números inseridos são iguais ou diverentes:
 if (number1 == number2) {
     alert("Os dois números são iguais");
